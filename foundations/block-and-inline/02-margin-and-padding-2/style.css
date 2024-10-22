@@ -34,7 +34,8 @@ button {
   border: 1px solid #eee;
   padding: 8px 24px;
   display: block;
-  /* why is specifying width not necessary for centering in this case? */
-  /* width: 150px; */
+  /* Why is specifying `width` not necessary for centering in this case?
+  It's because buttons are one of the special cases that have their width
+  determined by by their contents, EVEN IF DISPLAY IS SET TO BLOCK!! */
   margin: 0 auto;
 }
